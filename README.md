@@ -25,7 +25,13 @@ source control).
 
 Deno will automatically update the code. 
 
-##NOTE
+## NOTE
 Occasionally large code changes (or something small you can't find) will cause some issues. 
 If your project works locally and fails to deploy to Deno, you can go into your project
 and unlink the repo, then relink it. 
+
+## Bonus
+In Deno Deploy, you can go into your projects settings and give it a more user-friendly name
+yourcoolurl.deno.dev.
+
+You also get analytics as well as HTTPS.   Enjoy!
