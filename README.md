@@ -17,7 +17,7 @@ Update the existing files or add your own. Just make sure to set your css and js
 to 
 ```/public/styles/yourstyle.css``` 
 or 
-```.../scripts/yourscript.js```
+```.../public/scripts/yourscript.js```
 
 ## Auto Update
 Merge your changes into the branch you selected (or just edit and push to main if you are new to 
