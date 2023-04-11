@@ -1,37 +1,33 @@
-# easy-site-deploy
-Simple way to get a website online for free, without a lot of work. 
+# Easy Site Deploy
 
+Easy Site Deploy provides a streamlined and straightforward solution for deploying your website with minimal effort. By leveraging Deno Deploy, you can launch your website with ease, without the need for extensive setup or infrastructure maintenance.
 
-## Sign up for a free Deno Deploy account
-Go to https://wwww.deno.land/deploy and sign up for a free account.
+## Getting Started
 
-## Clone This Repo
-Clone this repo into your own Github repository.
+To get started with Easy Site Deploy, follow these steps:
 
-## Deploy from Deno
-In Deno Deploy, click on +New Project.  Choose the github repo you just created. 
-Use the automatic option to have your site auto-update.
+1. Sign up for a free [Deno Deploy](https://deno.com/deploy) account.
 
-## Update Code
-Update the existing files or add your own. Just make sure to set your css and js links 
-to 
-```/public/styles/yourstyle.css``` 
-or 
-```/public/scripts/yourscript.js```
+2. Clone this repository into your own Github repository.
 
-## Auto Update
-Merge your changes into the branch you selected (or just edit and push to main if you are new to 
-source control). 
+3. In Deno Deploy, create a new project by selecting **+New Project** and choosing the Github repository you just created.
 
-Deno will automatically update the code. 
+4. Utilize the automatic option to enable auto-updating of your site. Deno Deploy will automatically update your website each time you make changes to your code.
 
-## NOTE
-Occasionally large code changes (or something small you can't find) will cause some issues. 
-If your project works locally and fails to deploy to Deno, you can go into your project
-and unlink the repo, then relink it. 
+5. Customize the existing files or incorporate your own. Ensure that you specify your CSS and JS links to `/public/styles/yourstyle.css` or `/public/scripts/yourscript.js`. It's essential to ensure that the file paths are accurate to ensure that your CSS and JS files are loaded correctly.
 
-## Bonus
-In Deno Deploy, you can go into your projects settings and give it a more user-friendly name
-yourcoolurl.deno.dev.
+6. Merge your modifications into the branch you selected, or push them directly to the main branch if you're new to source control. Deno Deploy will automatically update your website each time you make changes to your code.
 
-You also get analytics as well as HTTPS.   Enjoy!
+## Troubleshooting
+
+In some cases, substantial code changes or other issues may cause problems with your deployment. If your project functions correctly locally but fails to deploy to Deno, you may attempt to unlink and relink your repository to see if that resolves the issue.
+
+## Bonus Features
+
+Deno Deploy offers several additional features to enhance your website's functionality. These include:
+
+- **User-friendly project naming:** Customize your project's name (such as `yourcoolurl.deno.dev`) to make it more memorable and easier to share.
+- **Analytics:** Use Deno Deploy to monitor visitor metrics and gain insights into how people are interacting with your site.
+- **HTTPS:** All Deno Deploy projects are automatically secured with HTTPS, ensuring that your website is secure and trustworthy.
+
+We hope that Easy Site Deploy will assist you in deploying your website quickly and effortlessly!
