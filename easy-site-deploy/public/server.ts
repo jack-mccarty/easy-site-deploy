@@ -5,22 +5,6 @@ import {
   
   import { serve } from "https://deno.land/std@0.182.0/http/server.ts";
   
-  import * as time from "./api/time.ts";
-  
-  const _text200 = {
-    status: 200,
-    headers: {
-      "Content-Type": "text/plain",
-    },
-  };
-  
-  const json200 = {
-    status: 200,
-    headers: {
-      "Content-Type": "application/json",
-    },
-  };
-  
   serve((req: Request) => {
     const pathname = new URL(req.url).pathname;
   
